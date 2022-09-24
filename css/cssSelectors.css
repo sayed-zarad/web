@@ -1,0 +1,41 @@
+.branding{
+    color: red;
+}
+.blog-post-title{
+    color: green;
+}
+
+.main-brand-2{
+    border: 2px black solid;
+    color: red;
+}
+.title-2{
+    color: green;
+}
+.hover-example{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.hover-example:hover{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+ol li{
+    color: red;
+}
+ol li:first-child{
+    color: green;
+
+}
+#site-brand-2 {
+    color: red;
+    border: 1px solid red;
+  }
+
+  .nav-head-2 {
+    color: green !important;
+    border: 1px solid green;
+  }

@@ -1,0 +1,83 @@
+.ex-box{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    background-color: #eee;
+    font-size: 40px;
+    border:5px #aaa solid ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    float: left;
+
+}
+/* **************************** */
+/* .floated div{
+    float: left;
+} */
+.flex-container{
+    display: flex;
+    /* justify-content:flex-start; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* width: 100%; */
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items:flex-end;
+    flex-wrap:wrap ;
+    border: 1px solid black;
+}
+
+/* .ai-stretch{
+ align-items: stretch;
+ height: 200px;
+} */
+
+.box-1{
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+.box-2{
+    border: 1px solid black;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    color: white;
+}
+.box-3{
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    color: white;
+}
+/* .no-height{
+    height: inherit;
+} */
+
+.ex-btn{
+    background-color: #eee;
+    color: black;
+    border: 2px #aaa solid;
+    padding: 4px , 15px;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+.ex-btn-warn{
+    background-color: crimson;
+    border-color: darkred;
+    color: white;
+}
+.ex-btn-success{
+    background-color: limegreen;
+    color: white;
+    border-color: green;
+    
+}
